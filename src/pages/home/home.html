@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <round-progress [current]="current" [max]="max" [stroke]="stroke" [radius]="radius" [semicircle]="semicircle" [rounded]="rounded"
+                  [responsive]="responsive" [clockwise]="clockwise" [color]="gradient ? 'url(#gradient)' : color" [background]="background"
+                  [duration]="duration" [animation]="animation" [animationDelay]="animationDelay"></round-progress>
+</ion-content>
